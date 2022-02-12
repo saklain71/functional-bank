@@ -17,11 +17,9 @@ function getInputValue(){
 
 // Deposit button
 document.getElementById('deposit-btn').addEventListener('click',function(){
-    const newDepositAmount = getInputValue();
+   
    // get deposit amount
-   /*  const depositfield = document.getElementById('deposit-input');
-    const depositAmountText = depositfield.value ;
-    const newDepositAmount = parseFloat(depositAmountText); */
+   const newDepositAmount = getInputValue();
     // get total deposit
     const depositTotal = document.getElementById('deposit-total');
     const previousDepositAmoutnText = depositTotal.innerText;
